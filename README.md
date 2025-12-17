@@ -2,7 +2,7 @@
 
 This repository contains structured C programming practice programs developed to build a strong foundation in **core C**, **advanced C**, and **Embedded C** concepts essential for low-level and system programming.
 
-📌 Purpose  
+## 📌 Purpose  
 The goal of this repository is to gain **in-depth mastery of the C programming language**, with a focus on **memory, pointers, and hardware-oriented programming**, forming a solid base for embedded systems, RTOS, and Linux kernel development.
 
 This work supports preparation for roles in:
@@ -10,7 +10,7 @@ This work supports preparation for roles in:
 - Firmware Engineering  
 - Systems and Low-Level Programming  
 
-📂 Topics Covered  
+## 📂 Topics Covered  
 
 - Core C fundamentals  
   - Data types and memory representation  
@@ -49,14 +49,14 @@ This work supports preparation for roles in:
   - Register-level programming examples  
   - Writing hardware-friendly and deterministic code  
 
-🚀 Next Steps  
+## 🚀 Next Steps  
 This repository serves as a strong foundation toward:
 - Embedded systems development using microcontrollers  
 - RTOS-based application development  
 - Linux device driver and kernel programming  
 - Performance-critical and memory-constrained systems  
 
-🛠 Platform  
+## 🛠 Platform  
 - Vim editor (terminal-based workflow) 
 - GCC toolchain  </br></br>
  
