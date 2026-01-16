@@ -13,7 +13,7 @@ void main()
 
 void display(int a)
 {
-    static int p;
+    static int p = 2;
     p++;
     printf("p value: %d, a value: %d\n", p, a);
 }
@@ -21,9 +21,9 @@ void display(int a)
 /*
  * What is the output of the code?
  * Ans:
- *      p value: 1, a value: 60
- *      p value: 2, a value: 80
- *      p value: 3, a value: 40
- *      p value: 4, a value: 70
- *      p value: 5, a value: 20
+ *      p value: 3, a value: 80
+ *      p value: 4, a value: 40
+ *      p value: 5, a value: 70
+ *      p value: 6, a value: 20
+ *      p value: 7, a value: 60
  */
