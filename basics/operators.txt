@@ -1,0 +1,62 @@
+Operators in C programming are:
+
+1) Arithmetic operators : 
+		+ => addition,
+		- => subtraction, 
+		* => multiplication, 
+		/ => divide, and 
+		% => modulus.
+
+2) Assignment operators :
+		=   => simple assignment,
+		+=  => plus and assign,
+		-=  => minus and assign,
+		*=  => multiply and assign,
+		/=  => divide and assign,
+		%=  => modulus and assign,
+		&=  => AND and assign,
+		|=  => OR and assign,
+		^=  => XOR and assign,
+		>>= => Rightshift and assign, and
+		<<= => Leftshift and assign.
+
+3) Increment and Decrement operator :
+		I ) Pre-increment and pre-decrement => ++(operand) and --(operand)
+		II) Post inclrement and post decrement => (operand)++ and (operand)--
+
+4) Relational operators :
+		== => equal to,
+		!= => not equal to,
+		<  => less than,
+		<= => less than or equal to,
+		>  => greater than, and 
+		>= => greater than or equal to.
+
+5) Logical operators :
+		&& => Logical AND,
+		|| => Logical OR, and
+		!  => Logical NOT.
+
+6) Conditional operator: ?: => Ternary operator(Test expression ? expression1 : expression2)
+
+7) Comma operator : (,) => is used to permit different expressions to appear in situations where only one expression would be used.
+
+8) sizeof operator :  the sizeof the operator is used to compute the size of the variable or datatype.
+
+9) Bitwise operators :
+		&  => bitwise AND,
+		|  => bitwise OR,
+		^  => bitwise XOR, 
+		~  => one's complement,
+		<< => left shift, and
+		>> => right shift.
+
+10) dot (.) and arrow (->) Operator : Member operators are used to reference individual members of classes, structures, and unions.
+		(.)  => is applied to the actual object.
+		(->) => is used with a pointer to an object.
+
+11) Cast Operator : convert one data type to another.
+
+12) addressof (&) and Dereference (*) Operator :
+		(&) => returns the address of a variable.
+		(*) => is a pointer to a variable.
