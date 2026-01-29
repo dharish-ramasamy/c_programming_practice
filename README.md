@@ -58,7 +58,12 @@ This repository serves as a strong foundation toward:
 
 ## 🛠 Platform  
 - Vim editor (terminal-based workflow) 
-- GCC toolchain  </br></br>
+- GCC toolchain
+
+## ⚠️  Note
+
+This repository is strictly for **learning and practice purposes**.  
+Executable files and build artifacts are excluded using `.gitignore` to keep the repository clean and professional.</br></br> 
  
 > Maintained by **Dharish Ramasamy**</br>
 > Embedded Software Engineer
