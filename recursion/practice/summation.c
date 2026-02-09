@@ -9,7 +9,7 @@ int main(void)
     scanf("%d", &num);
     if(num <= 0)
     {
-        printf("Enter positive number.\n");
+        printf("Enter positive number greater than 0.\n");
     }
     else
     {
