@@ -1,0 +1,35 @@
+Recursive function:
+	- A Recursive function is a function that calls itself.
+	- The problem is solved by repeatedly breaking it into smaller problems, which are similar in nature to original problem.
+	- The smaller problems are solved and their solutions are applied to get the final solution of the original problem.
+
+Syntax:
+
+int main()
+{
+	------
+	rec();
+	------
+}
+
+void rec()
+{
+	------
+	rec(); /* recursive call */
+	------
+}
+
+
+Note:
+	- Ensure that each recursive call takes you closer to the base case(condition that end's the recursion) 
+	  i.e. the size of the problem should be diminished at each recursive call.
+	- The recursive calls should be made in such a way that we arrive at the end base case. If we don't do so, we will have infinite recursion.
+
+
+Winding and Unwinding phase:
+=> Winding phase:
+	- Winding phase begins when the recursive function is called for the first time, and each recursive call continues the winding phase.
+	- In this phase the function keeps on calling itself and no return statements are executed in this phase.
+	- This phase terminates when the terminating condition becomes true in call.
+=> Unwinding phase:
+	- After the winding phase, Unwinding phase begins and all the recursive function calls start returning in reverse order till the first instance of function returns. 
