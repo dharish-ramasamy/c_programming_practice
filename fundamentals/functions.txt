@@ -1,0 +1,133 @@
+C programs have two type of functions:
+	- Library functions &
+	- User-Defined functions
+
+1) Library function:
+	A library function is a pre-written function available in standard header files, used to perform common tasks like 
+	input/output, string handling, math operations, memory management, etc.
+
+2) User-Defined function:
+	A user-defined function is a function created by the programmer to perform a specific task.
+	Instead of using only built-in functions like printf(), we create our own functions.
+
+Function Structure in C
+A function has three parts:
+	i. function declaration,
+	ii. function definition &
+	iii. function call
+
+1) Function Declaration (Prototype)
+
+return_type function_name(parameter_type, parameter_type);
+
+2) Function Definition
+
+return_type function_name(parameter_type parameter, parameter_type parameter)
+{
+    local variables declarations;
+    statements;
+    -----------
+    -----------
+    return expression;
+}
+
+3) Function Call
+
+function_name(argument, argument);
+
+Note: Number of argument must be equal to number of parameters
+
+
+Four Types of User-Defined Functions:
+	- Functions with no arguments and no return value
+	- Functions with no arguments but return value
+	- Functions with arguments but no return value
+	- Functions with arguments and return value
+
+=> Functions with no arguments and no return value
+
+void func(void);
+
+int main(void)
+{
+    ---------
+    func();
+    ---------
+     return 0;
+}
+
+void func(void)
+{
+    --------
+}
+
+=> Functions with no arguments but return value
+
+int func(void);
+
+int main(void)
+{
+    ---------
+    int a = func();
+    ---------
+    return 0;
+}
+
+int func(void)
+{
+    --------
+    return expression;
+}
+
+=> Functions with arguments but no return value
+
+void func(int, int);
+
+int main(void)
+{
+    ---------
+    func(a, b);
+    ---------
+    return 0;
+}
+
+void func(int x, int y)
+{
+    --------
+    printf("Sum = %d", x+y);
+}
+
+=> Functions with arguments and return value
+	
+int func(int, int);
+
+int main(void)
+{
+    ---------
+    int sum = func(a, b);
+    ---------
+    return 0;
+}
+
+int func(int x, int y)
+{
+    return x+y;
+}
+
+
+Local, Global, and Static Variables:
+
+1) Local variables:
+	- Variable which defined inside a function is called local variable.
+	- These variables are created when function is entered and are destroyed when the function is exited.
+
+2) Global variables:
+	- The variables that are defined outside any function are called global variables.
+	- All functions can access and modify global variables.
+	- Global variables in C are automatically initialized to 0 (if you don’t explicitly initialize them).
+	- Whenever there is conflict(local and global variable has same name), the local variable gets the precedence.
+
+3) Static variables:
+	- Static variable is declared by writing keyword "static" in front of the declaration.
+	- If a static variable is not initialized, then it automatically initialized to 0.
+	- A static variable is initialized only once and its value is retained between function calls.
