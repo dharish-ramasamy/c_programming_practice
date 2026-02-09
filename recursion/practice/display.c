@@ -7,9 +7,9 @@ int main(void)
     int num;
     printf("Enter a number: ");
     scanf("%d", &num);
-    if(num < 0)
+    if(num <= 0)
     {
-        printf("Enter positive integer.\n");
+        printf("Enter positive integer greater than 0.\n");
         return 0;
     }
     display(num);
