@@ -9,7 +9,7 @@ int main(void)
     scanf("%d", &num);
     if(num < 0)
     {
-        printf("No factorial for negative number.\n");
+        printf("Enter positive number.\n");
     }
     else
     {
