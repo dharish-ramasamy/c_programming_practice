@@ -1,0 +1,123 @@
+[1] Decision Making Statements
+
+i). if:
+
+if (condition)
+{
+    // statements
+}
+
+ii). if – else:
+
+if (condition)
+{
+    // true block
+}
+else
+{
+    // false block
+}
+
+iii). else if ladder:
+
+if (condition1)
+{
+    // block 1
+}
+else if (condition2)
+{
+    // block 2
+}
+else
+{
+    // default block
+}
+
+iv). Nested if:
+
+if (condition1)
+{
+    if (condition2)
+    {
+        // inner block
+    }
+}
+
+v). switch:
+
+switch (expression)
+{
+    case value1:
+        // statements
+        break;
+
+    case value2:
+        // statements
+        break;
+
+    default:
+        // default statements
+}
+
+
+[2] Looping Statements
+
+i). for loop:
+
+for (initialization; condition; increment/decrement)
+{
+    // statements
+}
+
+ii). while loop:
+
+while (condition)
+{
+    // statements
+}
+
+iii). do-while loop:
+
+do
+{
+    // statements
+}
+while (condition);
+
+[3] Jump Statements:
+
+i). break:
+
+break;
+
+Used to exit:
+	- loop
+	- switch
+
+ii). continue:
+
+continue;
+
+Use:
+	- Skips current iteration of loop.
+
+iii). goto:
+
+goto label;
+
+label:
+    // statements
+
+(Not recommended in good programming practice)
+
+iv). return:
+
+return value;
+
+- Used to exit a function.
+
+[4] Conditional Operator (Ternary)
+
+condition ? expression1 : expression2;
+
+- if condition is true, expression1 is executed orelse expression2 will be executed
