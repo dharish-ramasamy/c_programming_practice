@@ -10,10 +10,6 @@ int main(void)
     int (*ptr)[4];
     ptr = array;
 
-    printf("%p %p %p\n", ptr, ptr+1, ptr+2);
-    printf("%p %p %p\n", *ptr, *(ptr+1), *(ptr+2));
-    printf("%d %d %d\n\n", **ptr, *(*(ptr+1)+2), *(*(ptr+2)+3));
-
     for(int i = 0; i < 3; i++)
     {
         printf("Elements & it's address in array of %p is [", ptr+i);
@@ -23,4 +19,5 @@ int main(void)
         }
         printf("]\n");
     }
+    return 0;
 }
