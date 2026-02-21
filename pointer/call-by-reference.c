@@ -1,17 +1,17 @@
 #include<stdio.h>
 
-void value(int *p, int *q);
+void ref(int *p, int *q);
 
 int main(void)
 {
     int a = 5, b = 8;
     printf("a = %d, b = %d\n", a, b);
-    value(&a, &b);
+    ref(&a, &b);
     printf("a = %d, b = %d\n", a, b);
     return 0;
 }
 
-void value(int *p, int *q)
+void ref(int *p, int *q)
 {
     (*p)++;
     (*q)++;
