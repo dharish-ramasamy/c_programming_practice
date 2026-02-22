@@ -26,5 +26,8 @@ int main(void)
         printf(" %d", *(ptr+i));
     }
     printf("\n");
+
+    free(ptr);
+
     return 0;
 }
