@@ -13,7 +13,7 @@ int main(void)
     struct student stu2, stu3;
     strcpy(stu2.name, "John");
     stu2.rollno = 34;
-    stu3.mark = 83.645;
+    stu2.mark = 83.645;
     printf("Enter name, rollno and mark for stu3 : ");
     scanf("%s %d %f", stu3.name, &stu3.rollno, &stu3.mark);
     printf("stu1 : %s %d %.2f\n", stu1.name, stu1.rollno, stu1.mark);
